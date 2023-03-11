@@ -1,0 +1,16 @@
+.formInput{
+    width: 100%;
+    display: block;
+    border: 1px solid #ddd;
+    padding: 8px 8px;
+    outline: none;
+    border-radius: 4px;
+}
+
+.formInput:focus{
+    box-shadow: 1px 1px 10px rgba(0, 0, 255, 0.264);
+}
+
+.formInput.error {
+    border: 1px solid red;
+}
